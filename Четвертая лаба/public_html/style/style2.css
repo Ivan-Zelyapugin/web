@@ -1,0 +1,108 @@
+#Questions{
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 45%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#Answers {
+background-color: #f2f2f2;
+border: 1px solid #ddd;
+padding: 10px;
+width: 45%;
+font-size: 16px;
+text-align: left;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 100px;
+height: 350px;
+}
+
+#Answers li {
+  margin-bottom: 5px;
+  display:block;
+}
+
+#Answers label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#Answers select {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+#Answers option {
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+  background-color: #fff;
+}
+
+#Answers input[type="text"] {
+  border: 1px solid #ccc; /* граница поля */
+  padding: 10px; /* отступы внутри поля */
+  font-size: 16px; /* размер шрифта */
+  border-radius: 5px; /* скругление углов */
+  box-shadow: none; /* убираем тень */
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.noneStyle {
+    margin-top: 8px;
+}
+.blue {
+  background-color: blue;
+  margin-top: 8px;
+}
+
+.green {
+  background-color: green;
+  margin-top: 8px;
+}
+
+.red {
+  background-color: red;
+  margin-top: 8px;
+}
+
+#previous-question,
+#next-question,
+#Finish {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#Finish{
+    background-color: red;
+}
+
+
+
+
+

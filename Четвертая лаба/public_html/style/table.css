@@ -1,0 +1,46 @@
+table {
+  margin: 0 auto;
+  border-collapse:collapse;
+  width: 50%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  
+}
+
+th {
+    background-color: #ceaa45;
+}
+
+td {
+     background-color: #dfe1c3;
+}
+
+#return {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.result-row-correct {
+  background-color: green;
+}
+
+.result-row-incorrect {
+  background-color: red;
+}
+
+.result-row-no {
+  background-color: grey;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+    Зеляпугин Иван 22ВП2 вариант 9
+    Предмет «Изобразительное искусство». Тестирование по теме «Изображение в фотографии и живописи».
+-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Настройки теста</title>
+    <link href="style/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <form id="settings-form">
+        <div>Зеляпугин Иван 22ВП2 вариант 9<br>
+        Предмет «Изобразительное искусство». Тестирование по теме 
+        «Изображение в фотографии и живописи»</div>
+        <h2>Настройки опроса</h2>  
+        <p>
+        <label for="shuffle-questions-checkbox" class="setting-option">
+          <input type="checkbox" id="shuffle-questions-checkbox" name="shuffle-questions">
+          Перемешать вопросы
+        </label>
+        <label for="shuffle-answers-checkbox" class="setting-option">
+          <input type="checkbox" id="shuffle-answers-checkbox" name="shuffle-answers">
+          Перемешать ответы
+        </label>
+      </p>
+      <p>
+        <label for="time-limit-input" class="setting-option">
+          Поставить время:
+        </label>
+        <input type="number" id="time-limit-input" name="time-limit" required>
+        <label for="time-limit-input" class="setting-option">
+          минут
+        </label>
+      </p>
+      <button id="start-test-button" type="submit">Начать тест</button>
+      <script src="script/newjavascript.js" type="text/javascript"></script>
+    </form>
+  </body>
+</html>
+
