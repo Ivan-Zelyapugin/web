@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+    Зеляпугин Иван 22ВП2 вариант 9
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style/styles.css" rel="stylesheet" type="text/css"/>
+        <title>Хаотические фигуры</title>
+    </head>
+    <body>
+        <div>Зеляпугин Иван 22ВП2 вариант №9</div>
+        <div>По экрану хаотично перемещаются несколько фигур разного цвета и
+        формы. При клике левой кнопкой мыши на фигуре, она скрывается, а наверху
+        страницы появляется информация о скрытой фигуре (форма и цвет) и кнопка,
+        позволяющая снова ее визуализировать. После нажатия на кнопку
+        соответствующая фигура появляется, а кнопка с информацией исчезает.</div>
+        <div id="info-panel">
+            <div>Информация</div>
+            <div id="info"></div>
+        </div>
+        <div id="game-area">
+            <div class="figure rectangle" data-color="жёлтый" 
+                 data-shape="прямоугольник"></div>
+            <div class="figure circle" data-color="красный" 
+                 data-shape="круг"></div>
+            <div class="figure triangle" data-color="зелёный" 
+                 data-shape="треугольник"></div>
+            <div class="figure square" data-color="голубой" 
+                 data-shape="квадрат"></div>
+        </div>
+        <script src="js/jquery-3.6.4.min.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>

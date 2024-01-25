@@ -1,0 +1,58 @@
+#game-area {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #ddd;
+    position: relative;
+}
+
+.figure {
+    position:absolute;
+    cursor: pointer;
+ }
+  
+ .rectangle{
+    background-color: yellow;
+    width: 30px;
+    height: 60px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 5px;
+}
+  
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+  
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 50px solid green;
+    border-right: 50px solid transparent;
+    transform: rotate(270deg);
+}
+  
+#info-panel {
+  margin: 0 auto;
+  top: 10px;
+  left: 10px;
+  width: 580px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #000;
+  z-index: 1;
+}
+
+#info {
+  margin-top: 10px;
+  text-align: center;
+}
+
