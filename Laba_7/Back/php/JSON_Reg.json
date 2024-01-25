@@ -1,0 +1,65 @@
+[{
+        "name": "a517719845",
+        "email": "zelyapugini@inbox.ru",
+        "password": "112233",
+        "repeat-password": "112233"
+    }
+    , {
+        "date": "2004-01-11",
+        "name": "Sansetto",
+        "email": "zelyapugin@inbox.ru",
+        "password": "112233",
+        "repeat-password": "112233"
+    }
+    , {
+        "date": "2333-12-11",
+        "name": "a517719845",
+        "email": "elyapugini@inbox.ru",
+        "password": "112233",
+        "repeat-password": "112233"
+    }
+    , {
+        "mesdate": "2004-11-11",
+        "name": "a517719845",
+        "email": "skuchnovato_segodny@mail.ru",
+        "password": "112233",
+        "repeat-password": "112233"
+    }
+    , {
+        "mesdate": "2004-02-11",
+        "name": "a517719845",
+        "email": "12@dfs.11",
+        "password": "112233",
+        "repeat-password": "112233"
+    }
+    , {
+        "mesdate": "2006-12-11",
+        "name": "a517719845",
+        "email": "zion@inbox.ru",
+        "password": "112233",
+        "repeat-password": "112233"
+    }
+    , {
+        "mesdate": "2006-01-11",
+        "name": "\u041b\u0435\u043e\u043d\u044e\u0434",
+        "email": "htdox@yandex.ru",
+        "password": "123456",
+        "repeat-password": "123456"
+    }
+    , {
+        "mesdate": "1951-05-26",
+        "name": "123",
+        "email": "12@bb.11",
+        "password": "123456",
+        "repeat-password": "123456"
+    }
+,{"mesdate":"2004-03-12","name":"a517719845","email":"rf@ukg.ru","password":"112233","repeat-password":"112233"}
+,{"mesdate":"2004-02-11","name":"Sansetto","email":"131@mail.ru","password":"112233","repeat-password":"112233"}
+,{"mesdate":"2006-02-11","name":"Sansetto","email":"145@mail.ru","password":"112233","repeat-password":"112233"}
+,{"mesdate":"2007-12-11","name":"uyvb","email":"543@mail.ru","password":"112233","repeat-password":"112233"}
+,{"mesdate":"2007-04-28","name":"1111","email":"1337@mail.ru","password":"112233","repeat-password":"112233"}
+,{"mesdate":"1951-05-31","name":"123","email":"123456@nn.nn","password":"123456","repeat-password":"123456"}
+,{"mesdate":"1950-06-05","name":"123456","email":"123456@bb.ru","password":"123456","repeat-password":"123456"}
+,{"mesdate":"2000-02-11","name":"Sansetto","email":"12@12.ru","password":"112233","repeat-password":"112233"}
+,{"mesdate":"2000-02-11","name":"Sansetto","email":"1@1.ru","password":"112233","repeat-password":"112233"}
+]

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../../Back/js/jquery-3.6.4.js" type="text/javascript"></script>
+        <link href="../style/newStyle_2.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form id="glav-form" name="glav-form">
+            <div class="user-info">
+                <div class="cont">
+                    
+                    <input type="file" id="avatar">
+
+                    <span id="user">Имя пользователя</span>
+                    <img class="IMG" src ="">
+                </div>
+                <button type="button" id="logout-btn">Выйти</button>
+            </div>
+            <div class="container">
+                <div class="header">
+                    <h1>Личный кабинет</h1>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Номер заявки</th>
+                            <th>Имя</th>
+                            <th>Телефон</th>
+                            <th>Город</th>
+                            <th>Заголовок</th>
+                            <th>Текст объявления</th>
+                        </tr>
+                    </thead>
+                    <tbody id="results"></tbody>
+                </table>
+                <button type="button" id="add-request-btn">Добавить заявку</button>
+            </div>
+        </form>
+        <form id="transform-form" name="transform-form" onsubmit="return false" class="hidden">
+            <h2>Изменить объявление в газету</h2>
+            
+            <label for="name">Контакное лицо:</label>
+            <input type="text" id="transform_name" name="name" required>
+            <span id="transform_name_e" class="error-message"></span>
+            
+            <label for="phone">Номер телефона</label>
+            <input type="tel" id="transform_phone" name="phone" required>
+            <span id="transform_phone_e" class="error-message"></span>
+            
+            <label for="city">Город:</label>
+            <select name="city" id="transform_city" required>
+                <option value=""></option>
+                <option value="Moscow">Москва</option>
+                <option value="StPetersburg">Санкт-Петербург</option>
+                <option value="Kazan">Казань</option>
+                <option value="Novosibirsk">Новосибирск</option>
+                <option value="Penza">Пенза</option>
+            </select>
+            
+            <label for="zag">Заголовок</label>
+            <input type="text" id="transform_zag" name="zag" required>
+            <span id="transform_zag_e" class="error-message"></span>
+            
+            <label for="text">Текст объявления</label>
+            <input type="text" id="transform_text" name="text" required>
+            <span id="transform_text_e" class="error-message"></span>
+            <h2 id="transform_errorApp"></h2>
+            
+            <button type="button" id="transform_return">Главная</button>
+            <button type="submit" id="transform_send">Отправить заявку</button>
+        </form>
+        <form id="add-form" name="add-form" onsubmit="return false" class="hidden">
+            <h2>Подать объявление в газету</h2>
+            
+            <label for="name">Контакное лицо:</label>
+            <input type="text" id="name" name="name" required>
+            <span id="name_e" class="error-message"></span>
+            
+            <label for="phone">Номер телефона</label>
+            <input type="tel" id="phone" name="phone" required>
+            <span id="phone_e" class="error-message"></span>
+            
+            <label for="city">Город:</label>
+            <select name="city" id="city" required>
+                <option value=""></option>
+                <option value="Moscow">Москва</option>
+                <option value="StPetersburg">Санкт-Петербург</option>
+                <option value="Kazan">Казань</option>
+                <option value="Novosibirsk">Новосибирск</option>
+                <option value="Penza">Пенза</option>
+            </select>
+            
+            <label for="zag">Заголовок</label>
+            <input type="text" id="zag" name="zag" required>
+            <span id="zag_e" class="error-message"></span>
+            
+            <label for="text">Текст объявления</label>
+            <input type="text" id="text" name="text" required>
+            <span id="text_e" class="error-message"></span>
+            <h2 id="errorApp"></h2>
+            
+            <button type="button" id="return">Главная</button>
+            <button type="submit" id="send">Отправить заявку</button>
+            
+            <script src="../js/FormJS_2.js" type="text/javascript"></script>
+            <script src="../../Back/js/app.js" type="text/javascript"></script>
+            <script src="../../Back/js/show.js" type="text/javascript"></script>
+            <script src="../../Back/js/transform.js" type="text/javascript"></script>
+            <script src="../../Back/js/delete.js" type="text/javascript"></script>
+        </form>
+    </body>
+</html>

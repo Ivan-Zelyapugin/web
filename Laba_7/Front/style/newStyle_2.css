@@ -1,0 +1,214 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#avatar {
+  margin-bottom: 10px;
+}
+
+.user-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.user-info #user {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#logout-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#add-request-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#add-request-btn:hover {
+    background-color: #0069d9;
+    cursor: pointer;
+}
+
+.IMG {
+    content: url("../../pic/qaz.jpg");
+    width: 150px; 
+    height: 160px; 
+    border: 3px solid black;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+
+.table tr:last-child td {
+    border-bottom: none;
+}
+
+#add-form {
+    display: none; /* изначально форма скрыта */
+    margin-top: 20px;
+}
+
+#transform-form{
+    display: none; /* изначально форма скрыта */
+    margin-top: 20px;
+}
+
+#add-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#add-form label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#transform-form label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#add-form input[type="text"],
+#add-form input[type="date"],
+#add-form input[type="tel"],
+#add-form select {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#transform-form input[type="text"],
+#transform-form input[type="date"],
+#transform-form input[type="tel"],
+#transform-form select {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#add-form input[type="text"]:focus,
+#add-form input[type="date"]:focus,
+#add-form input[type="tel"]:focus,
+#add-form select:focus {
+    outline: none;
+    border: 1px solid #007bff;
+}
+
+#transform-form input[type="text"]:focus,
+#transform-form input[type="date"]:focus,
+#transform-form input[type="tel"]:focus,
+#transform-form select:focus {
+    outline: none;
+    border: 1px solid #007bff;
+}
+
+#add-form input[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#transform-form input[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-form input[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+#transform-form input[type="submit"]:hover {
+    background-color: #0069d9;
+}
+.error-message {
+    color: red;
+}
+
+
